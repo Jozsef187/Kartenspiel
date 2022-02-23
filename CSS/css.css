@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 50%;
+    margin: auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mem {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
